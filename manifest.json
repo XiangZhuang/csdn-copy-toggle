@@ -11,6 +11,6 @@
   },
   "content_scripts": [{
     "matches": ["https://blog.csdn.net/*"],
-    "js": ["/scripts/enable-copy.js"]
+    "js": ["/scripts/enable-copy.js", "/scripts/remove-copy-right.js"]
   }]
 }
