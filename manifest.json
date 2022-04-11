@@ -1,0 +1,12 @@
+{
+  "name": "CSDN Copy Toggle",
+  "description": "Code content on CSDN can be copied without logging in",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "/images/icon16.png",
+    "32": "/images/icon32.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
+  }
+}
