@@ -9,6 +9,12 @@
     "48": "/images/icon48.png",
     "128": "/images/icon128.png"
   },
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_popup": "/ui/popup.html"
+  },
   "content_scripts": [{
     "matches": ["https://blog.csdn.net/*"],
     "js": ["/scripts/enable-copy.js", "/scripts/remove-copy-right.js"]
