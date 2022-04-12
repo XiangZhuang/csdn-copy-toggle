@@ -1,8 +1,8 @@
 {
   "name": "CSDN Copy Toggle",
-  "description": "Code content on CSDN can be copied without logging in",
+  "description": "Helper toggles for users of CSDN",
   "version": "0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "16": "/images/icon16.png",
     "32": "/images/icon32.png",
@@ -12,7 +12,7 @@
   "permissions": [
     "storage"
   ],
-  "browser_action": {
+  "action": {
     "default_popup": "/ui/popup.html"
   },
   "content_scripts": [{
